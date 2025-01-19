@@ -11,4 +11,8 @@ import pandas as pd
 tabela = pd.read_csv("cancelamentos.csv")
 
 # 2º Visualizar base de dados (entender a base + identificar problemas);
+print(tabela)
 
+#3º Tratar base de dados (corrigir problemas na base);
+tabela = tabela.drop(columns="CustomerID")
+print(tabela)
