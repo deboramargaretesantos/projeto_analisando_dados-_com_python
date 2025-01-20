@@ -24,3 +24,5 @@ print(tabela.info())
 
 # 4º Análise inicial: quantos clientes cancelaram e qual o percentual (%) de clientes;
 print(tabela["cancelou"].value_counts())
+
+print(tabela["cancelou"].value_counts(normalize=True))
