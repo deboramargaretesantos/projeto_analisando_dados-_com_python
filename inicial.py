@@ -16,3 +16,5 @@ print(tabela)
 #3º Tratar base de dados (corrigir problemas na base);
 tabela = tabela.drop(columns="CustomerID")
 print(tabela)
+
+print(tabela.info())
