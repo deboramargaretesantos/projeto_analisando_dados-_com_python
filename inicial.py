@@ -18,3 +18,6 @@ tabela = tabela.drop(columns="CustomerID")
 print(tabela)
 
 print(tabela.info())
+
+tabela = tabela.dropna()
+print(tabela.info())
