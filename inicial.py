@@ -51,7 +51,13 @@ for coluna in tabela.columns:
  
 tabela = tabela[tabela["duracao_contrato"]!="Monthly"]
 
+# ligacoes_callcenter:
+
+tabela = tabela[tabela["ligacoes_callcenter"]<=4]
+
 # atraso_pagamento:
+
+tabela = tabela[tabela["dias_atraso"]<=15]
 
 print(tabela["cancelou"].value_counts)
 
