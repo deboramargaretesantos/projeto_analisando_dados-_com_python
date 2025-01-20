@@ -35,3 +35,15 @@ for coluna in tabela.columns:
 
     grafico.show()
 
+# Análise dos gráficos e ações para resolução das possíveis causas de cancelamento do serviço:
+
+# Causa: Usuários de contrato mensal sempre cancelam.
+# Ação corretiva: evitar o contrato mensal e incentivar (com desconto) os contratos trimestrais e anuais.
+
+# Causa: Todos os usuários que ligam mais de 4x para o call center, cancelaram o serviço.
+# Ação: Criar um alerta vermelho, que acuse quando o usuário já realizou a terceira ligação para o call center.
+
+# Causa: Usuários que atrasaram o pagamento por mais de 20 dias, cancelaram o serviço.
+# Ação: Criar alerta para quando o usuário atingiu 15 dias de atraso no pagamento.
+
+# Com essas três ações estratégicas é possível reduzir consideravelmente o percentual de cancelamento:
