@@ -7,6 +7,7 @@
 
 # Importação da base de dados;
 import pandas as pd
+import plotly.express as px
 
 tabela = pd.read_csv("cancelamentos.csv")
 
