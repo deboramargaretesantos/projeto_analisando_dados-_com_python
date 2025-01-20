@@ -38,7 +38,7 @@ for coluna in tabela.columns:
 # Análise dos gráficos e ações para resolução das possíveis causas de cancelamento do serviço:
 
 # 1ªCausa: Usuários de contrato mensal sempre cancelam.
-ª
+
 # 2ªCausa: Todos os usuários que ligam mais de 4x para o call center, cancelaram o serviço.
 # 2ªAção: Criar um alerta vermelho, que acuse quando o usuário já realizou a terceira ligação para o call center.
 
