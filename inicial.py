@@ -28,3 +28,10 @@ print(tabela["cancelou"].value_counts())
 
 print(tabela["cancelou"].value_counts(normalize=True))
 
+# 5º Análise de causa de cancelamento dos clientes.
+for coluna in tabela.columns:
+
+    grafico = px.histogram(tabela, x=coluna, color="cancelou", text_auto=True)
+
+    grafico.show()
+
