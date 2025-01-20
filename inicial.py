@@ -26,3 +26,4 @@ print(tabela.info())
 print(tabela["cancelou"].value_counts())
 
 print(tabela["cancelou"].value_counts(normalize=True))
+
